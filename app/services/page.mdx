@@ -1,0 +1,40 @@
+import PageLayout from '@/component/layout'
+
+import Button from '@/component/button'
+import DiscordIcon from '@/component/icons/discord-icon'
+import EmailIcon from '@/component/icons/email-icon'
+import TelegramIcon from '@/component/icons/telegram-icon'
+
+<PageLayout
+    title="Services" subtitle="">
+
+I currently don't offer specific services, but I'm open to custom requests or collaborations.
+
+---
+
+Feel free to reach out to me on:
+
+<div className="flex flex-col gap-4 mt-6">
+  <Button
+    icon={<DiscordIcon />}
+    name="Discord"
+    href="https://discord.com/users/1333390445509742666"
+    external
+  />
+
+  <Button
+    icon={<EmailIcon />}
+    name="Email"
+    href="mailto:minthetkyaw404@gmail.com"
+    external
+  />
+
+  <Button
+    icon={<TelegramIcon />}
+    name="Telegram"
+    href="https://t.me/maevik84"
+    external
+  />
+</div>
+
+</PageLayout>

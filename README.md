@@ -1,5 +1,5 @@
 <p>
-    <img src="assets/github-banner.png">
+    <img src="public/images/github-banner.png">
 </p>
 
 My name is "Maevik" 19 years old self-taught developer, network engineer & tech enthusiast, currently located in `Myanmar`.
