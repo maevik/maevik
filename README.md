@@ -9,8 +9,9 @@ A 19 year's old self-taught developer & tech enthusiast, currently located in My
 ---
 ### Contacts
 
-- Discord: [**maevik84**](https://discord.com/users/1333390445509742666)
+- Discord: [**@maevik84**](https://discord.com/users/1333390445509742666)
 - Telegram : [**@maevik84**](https://telegram.me/maevik84)
+- Twitter : [**@maevik84**](https://x.com/maevik84)
 - YouTube : [**@maevik**](https://youtube.com/)
 
 ### Status
