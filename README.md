@@ -4,7 +4,7 @@
 
 ## Hello, I'm Maevik
 
-A 19 year's old self-taught developer & tech enthusiast, currently located in Myanmar.
+A 20 year's old self-taught developer & tech enthusiast, currently located in Myanmar.
 
 ---
 ### Contacts
