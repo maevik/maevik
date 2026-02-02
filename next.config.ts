@@ -5,7 +5,9 @@ import withMDX from "@next/mdx";
 const nextConfig: NextConfig = {
   pageExtensions: ["js", "jsx", "md", "mdx", "ts", "tsx"],
   images: {
-    domains: ["cdn.discordapp.com"],
+    remotePatterns: [
+      { hostname: "cdn.discordapp.com" }
+    ]
   },
 };
 

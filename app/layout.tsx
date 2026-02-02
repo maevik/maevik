@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-
 import { AudioProvider } from "@/component/provider/audio";
+import { BackgroundProvider } from "@/component/provider/background";
+
 import Navbar from "@/component/navbar";
 import Footer from "@/component/footer";
 
@@ -29,23 +30,14 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body
-				className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-				style={{
-					backgroundImage: "url('/images/background.jpg')",
-					backgroundSize: "cover",
-					backgroundPosition: "center",
-					backgroundRepeat: "no-repeat",
-					backgroundAttachment: "fixed",
-					minHeight: "100vh",
-					margin: 0,
-				}}
-			>
-				<AudioProvider>
-					<Navbar />
-					{children}
-					<Footer />
-				</AudioProvider>
+			<body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+				<BackgroundProvider>
+					<AudioProvider>
+						<Navbar />
+						{children}
+						<Footer />
+					</AudioProvider>
+				</BackgroundProvider>
 			</body>
 		</html>
 	);
